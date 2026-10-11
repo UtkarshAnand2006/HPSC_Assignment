@@ -1,0 +1,1 @@
+Original 10000-node CSV measurements retained from the completed run log: time has six decimal places; true residual is printed to three significant digits. Convergence was accepted only after the unrounded true residual satisfied 1e-8. Original solver recurrences and coefficients were unchanged by the later symmetrization preparation optimization.

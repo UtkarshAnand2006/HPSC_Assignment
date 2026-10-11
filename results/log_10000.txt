@@ -1,0 +1,22 @@
+N=10000 original nnz=67625 tuned omega=1.940
+Dense SOR: 353 36.766389s residual 9.71e-09 converged
+Dense SD: 25929 358.073725s residual 1e-08 converged
+Dense MR: 25523 351.714310s residual 9.99e-09 converged
+Dense CG: 301 4.178953s residual 9.82e-09 converged
+Dense BiCGSTAB: 187 5.103499s residual 6.36e-09 converged
+CSR SOR: 353 0.071309s residual 9.71e-09 converged
+CSR SD: 25929 2.239815s residual 1e-08 converged
+CSR MR: 25523 2.198128s residual 9.99e-09 converged
+CSR CG: 302 0.024625s residual 9.16e-09 converged
+CSR BiCGSTAB: 206 0.037672s residual 8.63e-09 converged
+N=10000 symmetrized nnz=68410 tuned omega=1.940
+Dense SOR: 350 36.200623s residual 1e-08 converged
+Dense SD: 25978 368.634652s residual 1e-08 converged
+Dense MR: 26262 375.252698s residual 1e-08 converged
+Dense CG: 311 4.659008s residual 9.02e-09 converged
+Dense BiCGSTAB: 216 6.391922s residual 5.88e-09 converged
+CSR SOR: 350 0.076805s residual 1e-08 converged
+CSR SD: 25978 2.434771s residual 1e-08 converged
+CSR MR: 26262 2.545962s residual 1e-08 converged
+CSR CG: 311 0.029273s residual 9.04e-09 converged
+CSR BiCGSTAB: 187 0.041999s residual 8.56e-09 converged

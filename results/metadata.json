@@ -1,0 +1,24 @@
+{
+  "compiler": "gcc (Debian 14.2.0-19) 14.2.0",
+  "compile_flags": "-O3 -march=native -std=c11 -Wall -Wextra",
+  "dense_backend": "NumPy ILP64 OpenBLAS, 1 thread",
+  "csr_backend": "portable C loops, 1 thread",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "source_mesh_sha256": {
+    "solver.c": "635a0ca38812b8ca77c71b21dac1a316538d7290f6d045d1ccc321d19deea267",
+    "mesh_100.msh": "f785e1ea4247ba97e914efd1008b3cce131dc16f9e7d7c5aa92c3a94b8509589",
+    "mesh_1000.msh": "d09f3f02d68e4d2bc78c311de65996c80d8ec80765ca12a8cf06da7ea787b652",
+    "mesh_10000.msh": "d564c250d481b3c5338fe49a7b430ae4abd294c19595435142098f7327f405f2"
+  },
+  "reference_pdf": "Used for section and table layout only; no reference results reused.",
+  "python_package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "reportlab": "4.4.9",
+    "gmsh": "4.15.2"
+  },
+  "original_10000_record_precision": "Time: 6 decimal places; true residual: 3 significant digits, retained from completed log. Stopping checked on unrounded true residual.",
+  "symmetrization_equivalence": "As_10000.mtx, As_10000.csr and b_10000.txt hashes unchanged after skipping writes of equal coefficients.",
+  "sor_search_validation": "Repeated complete CSR searches matched original omega=1.940 (353 sweeps) and symmetrized omega=1.940 (350 sweeps); full refreshed trial history in tuning_10000.csv."
+}

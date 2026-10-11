@@ -1,0 +1,3 @@
+solver
+__pycache__/
+*.pyc
